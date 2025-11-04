@@ -239,6 +239,12 @@ li {
     display: flex;
     align-items: center;
     column-gap: 14px;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+
+.hero__cta-group .watch-video:hover {
+    transform: scale(1.07);
 }
 
 .hero__cta-group .watch-video .icon {
