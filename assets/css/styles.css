@@ -70,6 +70,21 @@ li {
     line-height: 166.667%;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
 /* Header */
 .header {
     padding: 36px 0 8px;
@@ -372,6 +387,10 @@ li {
 .popular-bottom .course-item .head {
     display: flex;
     justify-content: space-between;
+}
+
+.popular-bottom .head .course-title {
+    margin-right: 30px;
 }
 
 .popular-bottom .head .course-title a {
