@@ -441,3 +441,70 @@ li {
 .popular-bottom .foot .book:hover {
     background: var(--primary-color);
 }
+
+/* Feedback */
+.feedback {
+    background: #2E2100;
+    padding: 96px 0;
+}
+
+.feedback .feedback-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .info .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .info .title {
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+}
+
+.feedback .info .desc {
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    line-height: 1.85;
+}
+
+.feedback .info .dots {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    margin-top: 28px;
+}
+
+.feedback .info .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.feedback .info .dot.active {
+    background: var(--primary-color);
+    cursor: default;
+}
+
+.feedback .content {
+    width: 770px;
+}
+
+.feedback .container .review {
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.53;
+    margin-left: 30px;
+}
