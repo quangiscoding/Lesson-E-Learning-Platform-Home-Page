@@ -725,3 +725,81 @@ li {
 .blog .dots {
     margin-top: 38px;
 }
+
+/* Footer */
+.footer {
+    background: #2E2100;
+    padding: 96px 0 0;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554B;
+}
+
+.footer .desc,
+.footer li a {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #BFBCB2;
+}
+
+.footer .column {
+    width: 21.6%;
+}
+
+.footer .column:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+}
+
+.footer .social {
+    margin-top: 18px;
+    display: flex;
+    column-gap: 18px;
+}
+
+.footer .title {
+    font-family: "Poppins";
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    /* fix display to adjust the border */
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554B;
+}
+
+.footer ul {
+    margin-top: 24px;
+}
+
+.footer li {
+    margin-top: 12px;
+}
+
+.footer li strong {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.75;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding: 28px 0;
+}
+
+.footer .copyright .desc {
+    color: #807D74;
+    max-width: 100%;
+}
